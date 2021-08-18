@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomPopupDemo</string>
+    <string name="tab_audio">音乐</string>
+    <string name="tab_cover">封面</string>
+    <string name="tab_crop">剪辑</string>
+    <string name="tab_text">文字</string>
+</resources>

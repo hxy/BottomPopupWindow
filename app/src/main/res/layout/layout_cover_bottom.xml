@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_dialog_background"
+    android:orientation="vertical"
+    android:paddingBottom="28dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/id_input_et"
+            android:layout_width="1px"
+            android:layout_height="1px"
+            android:textSize="16sp"
+            android:background="@color/color_9d9d9d" />
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:scaleType="center"
+            android:src="@mipmap/icon_video_edit_close" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="封面"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:scaleType="center"
+            android:src="@mipmap/icon_video_edit_ok" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_rv_txt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="22dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_rv_img"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+</LinearLayout>
